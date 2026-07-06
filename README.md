@@ -105,24 +105,13 @@ g++ main.cpp -o Pong.exe -lsfml-graphics -lsfml-window -lsfml-system
 
 ---
 
-## 🎯 Future Improvements
+## Coming Soon
 
-- 🔊 Sound effects
-- 🎵 Background music
-- ✨ Particle effects
-- 🌠 Ball trail
-- 💥 Screen shake
-- ⚙️ Settings menu
-- 🎮 AI difficulty levels
-- 🖥️ Fullscreen mode
-
----
-
-## 📸 Future Showcase
-
-- Gameplay GIF
-- Screenshots
-- Release builds
+- [ ] Ball trail
+- [ ] Score animations
+- [ ] Paddle impact effects
+- [ ] Rain animation
+- [ ] Visual polish
 
 ---
 
