@@ -9,11 +9,11 @@ Unlike the classic Pong, Rainy Pong features a pixel-art rainy atmosphere, ambie
 ## 📸 Screenshots
 
 ### Main Menu
-![Main Menu]<img width="798" height="603" alt="Main Menu" src="https://github.com/user-attachments/assets/a2211109-4486-40e3-88d8-4cb7ab9f8c1c" />
+<img width="798" height="603" alt="Main Menu" src="https://github.com/user-attachments/assets/a2211109-4486-40e3-88d8-4cb7ab9f8c1c" />
 
 
 ### Gameplay
-![Gameplay]<img width="801" height="599" alt="Gameplay" src="https://github.com/user-attachments/assets/971b7640-6aa0-48f7-a5a1-a625296af590" />
+<img width="801" height="599" alt="Gameplay" src="https://github.com/user-attachments/assets/971b7640-6aa0-48f7-a5a1-a625296af590" />
 
 
 ---
