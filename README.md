@@ -1,126 +1,145 @@
-# 🌊 Rainy Pong
+# 🌧️ Rainy Pong
 
-A modern Pong clone built in **C++** using **SFML**, featuring polished gameplay, multiple game modes, and a clean state-machine architecture.
+A relaxing atmospheric Pong game built in **C++** using **SFML 3**.
+
+Unlike the classic Pong, Rainy Pong features a pixel-art rainy atmosphere, ambient music, bubble effects, and both single-player and local multiplayer modes.
 
 ---
 
-## Features
+## 📸 Screenshots
 
-- 🎮 One Player (AI) and Two Player modes
-- ⏸️ Pause menu with Resume, Restart and Exit
-- 🏆 Win detection and Game Over screen
-- 🎵 Dynamic background music
-- 🔄 Smooth menu ↔ gameplay music transitions
-- 🔊 Interactive sound effects
-  - Paddle collisions
-  - Wall collisions
-  - Score splash
-  - Button hover & click
-  - Victory & defeat sounds
-- 🌧️ Rain-themed atmosphere
-- 🤖 AI opponent
-- ⚡ Increasing ball speed
-- 🎨 Pixel-art inspired UI
+### Main Menu
+![Main Menu]<img width="798" height="603" alt="Main Menu" src="https://github.com/user-attachments/assets/a2211109-4486-40e3-88d8-4cb7ab9f8c1c" />
+
+
+### Gameplay
+![Gameplay]<img width="801" height="599" alt="Gameplay" src="https://github.com/user-attachments/assets/971b7640-6aa0-48f7-a5a1-a625296af590" />
+
+
+---
+
+## ✨ Features
+
+- 🌧️ Animated rain effect
+- 💧 Bubble ball with trail and splash particles
+- 🤖 Single-player AI
+- 👥 Local two-player mode
+- ⏸ Pause menu
+- 🏆 Game over screen
+- 🎵 Background music and sound effects
+- 🎨 Pixel-art themed visuals
 
 ---
 
 ## 🎮 Controls
 
-### Player 1
-| Key | Action |
-|------|--------|
-| **W** | Move Up |
-| **S** | Move Down |
+### Single Player
 
-### Player 2
 | Key | Action |
 |------|--------|
-| **↑** | Move Up |
-| **↓** | Move Down |
+| W | Move Up |
+| S | Move Down |
+
+### Two Player
+
+| Player | Controls |
+|---------|----------|
+| Left Paddle | W / S |
+| Right Paddle | ↑ / ↓ |
 
 ### General
-| Key / Mouse | Action |
-|-------------|--------|
-| Mouse | Navigate menus |
-| Left Click | Select option |
+
+| Key | Action |
+|------|--------|
 | Esc | Pause / Resume |
 
 ---
 
-## 🖥️ Screens
+## 🛠 Built With
 
-- Main Menu
-- Gameplay
-- Pause Menu
-- Game Over Screen
-
----
-
-## 🛠️ Built With
-
-- **C++17**
-- **SFML 3**
-- Visual Studio Code
+- C++
+- SFML 3
+- MinGW-w64
 - Git & GitHub
 
 ---
 
-## 🧠 Architecture
+## 🚀 Running the Game
 
-The game is organized using a **state machine**, making transitions between screens clean and easy to manage.
+Download the latest release from itch.io:
 
-Current game states include:
+👉 **https://astrath.itch.io/rainy-pong**
 
-- Menu
-- Serve
-- Single Player
-- Two Player
-- Paused
-- Game Over
+or clone the repository and build it yourself.
+
+### Compile
+
+```bash
+g++ main.cpp -o Pong.exe -mwindows \
+-lsfml-graphics \
+-lsfml-window \
+-lsfml-system \
+-lsfml-audio
+```
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Ocean-Pong/
+Rainy Pong/
 │
 ├── assets/
-│   └── Font/
+│   ├── Images/
+│   ├── Fonts/
+│   └── Music/
 │
 ├── main.cpp
-├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 🚀 Building
+## 📚 What I Learned
 
-Compile using:
+This project helped me learn:
 
-```bash
-g++ main.cpp -o Pong.exe -lsfml-graphics -lsfml-window -lsfml-system
-```
-
----
-
-## Coming Soon
-
-- [ ] Ball trail
-- [ ] Score animations
-- [ ] Paddle impact effects
-- [ ] Rain animation
-- [ ] Visual polish
+- Game loops
+- Collision detection
+- Basic AI
+- Particle systems
+- Object movement
+- SFML rendering
+- Audio in games
+- Git & GitHub
+- Packaging Windows applications
 
 ---
 
-## 👨‍💻 Author
+## 🎯 Future Improvements
 
-Astrath
-
-First game project built while learning **C++**, **SFML**, and **game development**.
+- Fullscreen support
+- Better AI difficulty levels
+- Settings menu
+- Animated menus
+- More visual effects
 
 ---
 
-⭐ If you like the project, consider starring the repository!
+## 📥 Download
+
+🎮 Play the game here:
+
+**https://astrath.itch.io/rainy-pong**
+
+---
+
+## 👤 Author
+
+GitHub: https://github.com/Astrath07
+
+itch.io: https://astrath.itch.io/
+
+---
+
+### ⭐ If you enjoyed the project, consider starring the repository!
