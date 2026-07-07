@@ -1,4 +1,4 @@
-# 🌊 Rain Pong
+# 🌊 Rainy Pong
 
 A modern Pong clone built in **C++** using **SFML**, featuring polished gameplay, multiple game modes, and a clean state-machine architecture.
 
